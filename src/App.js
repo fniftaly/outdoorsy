@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import data from "./data.json";
+import Products from "./components/Products";
 // testing reopo
 function App() {
   const [state, setState] = useState({
@@ -13,7 +14,9 @@ function App() {
         <h5>Header</h5>
       </header>
       <main>
-        <div className="content"></div>
+        <div className="content">
+          <Products products={state.products} />
+        </div>
       </main>
       <footer>All right is reserved.</footer>
     </div>
