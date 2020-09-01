@@ -11,7 +11,13 @@ function App() {
   return (
     <div className="grid-container">
       <header>
-        <h5>Header</h5>
+        <div className="header-div">
+          Filter By Brand:
+          <input className="input" type="text" name="search" value="" />
+          <button type="GO" className="btn-go">
+            GO
+          </button>
+        </div>
       </header>
       <main>
         <div className="content">
