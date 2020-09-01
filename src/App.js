@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import data from "./data.json";
+import data from "./data.json";0
 // testing reopo
 function App() {
   const [state, setState] = useState({
