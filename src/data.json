@@ -1,107 +1,169 @@
 {
-	"products": [{
-			"id": "100",
-			"name": "",
-			"image": "/imgs/sample.png",
-			"type": "rv",
-			"description": "'Malibu' VW Bay Window: Westfalia",
-			"price": 200.00,
-			"sleeps": 3,
-			"zipcode": ""
-		}, {
-			"id": "101",
-			"name": "",
-			"image": "/imgs/sample.png",
-			"type": "rv",
-			"description": "'Malibu' VW Bay Window: Westfalia",
-			"price": 145.00,
-			"sleeps": 1,
-			"zipcode": ""
-		}, {
-			"id": "102",
-			"name": "",
-			"image": "/imgs/sample.png",
-			"type": "rv",
-			"description": "'Malibu' VW Bay Window: Westfalia",
-			"price": 200.00,
-			"sleeps": 2,
-			"zipcode": ""
-		}, {
-			"id": "103",
-			"name": "",
-			"image": "/imgs/sample.png",
-			"type": "rv",
-			"description": "'Malibu' VW Bay Window: Westfalia",
-			"price": 543.00,
-			"sleeps": 4,
-			"zipcode": ""
-		}, {
-			"id": "104",
-			"name": "",
-			"image": "/imgs/sample.png",
-			"type": "rv",
-			"description": "'Malibu' VW Bay Window: Westfalia",
-			"price": 300.00,
-			"sleeps": 2,
-			"zipcode": ""
-		}, {
-			"id": "105",
-			"name": "",
-			"image": "/imgs/sample.png",
-			"type": "rv",
-			"description": "'Malibu' VW Bay Window: Westfalia",
-			"price": 400.00,
-			"sleeps": 3,
-			"zipcode": ""
-		}, {
-			"id": "106",
-			"name": "",
-			"image": "/imgs/sample.png",
-			"type": "rv",
-			"description": "'Malibu' VW Bay Window: Westfalia",
-			"price": 270.00,
-			"sleeps": 2,
-			"zipcode": ""
-		},
-		{
-			"id": "107",
-			"name": "",
-			"image": "/imgs/sample.png",
-			"type": "rv",
-			"description": "'Malibu' VW Bay Window: Westfalia",
-			"price": 200.00,
-			"sleeps": 2,
-			"zipcode": ""
-		},
-		{
-			"id": "108",
-			"name": "",
-			"image": "/imgs/sample.png",
-			"type": "rv",
-			"description": "'Malibu' VW Bay Window: Westfalia",
-			"price": 170.00,
-			"sleeps": 1,
-			"zipcode": ""
-		},
-		{
-			"id": "109",
-			"name": "",
-			"image": "/imgs/sample.png",
-			"type": "rv",
-			"description": "'Malibu' VW Bay Window: Westfalia",
-			"price": 110.00,
-			"sleeps": 2,
-			"zipcode": ""
-		},
-		{
-			"id": "110",
-			"name": "",
-			"image": "/imgs/sample.png",
-			"type": "rv",
-			"description": "'Malibu' VW Bay Window: Westfalia",
-			"price": 310.00,
-			"sleeps": 3,
-			"zipcode": ""
-		}
-	]
+  "products": [
+    {
+      "id": "100",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "RV",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 200.0,
+      "sleeps": 3,
+      "zipcode": "",
+      "brand": "Toyota"
+    },
+    {
+      "id": "101",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "RV",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 145.0,
+      "sleeps": 1,
+      "zipcode": "",
+      "brand": "Ford"
+    },
+    {
+      "id": "102",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "RV",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 200.0,
+      "sleeps": 2,
+      "zipcode": "",
+      "brand": "Subaru"
+    },
+    {
+      "id": "103",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "Van",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 543.0,
+      "sleeps": 4,
+      "zipcode": "",
+      "brand": "Toyota"
+    },
+    {
+      "id": "104",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "Coach",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 300.0,
+      "sleeps": 2,
+      "zipcode": "",
+      "brand": "Dodge"
+    },
+    {
+      "id": "105",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "RV",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 400.0,
+      "sleeps": 3,
+      "zipcode": "",
+      "brand": "Ford"
+    },
+    {
+      "id": "106",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "rv",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 270.0,
+      "sleeps": 2,
+      "zipcode": "",
+      "brand": "Chevrolet"
+    },
+    {
+      "id": "107",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "RV",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 200.0,
+      "sleeps": 2,
+      "zipcode": "",
+      "brand": "Ford"
+    },
+    {
+      "id": "108",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "RV",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 170.0,
+      "sleeps": 1,
+      "zipcode": "",
+      "brand": "Subaru"
+    },
+    {
+      "id": "109",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "RV",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 110.0,
+      "sleeps": 2,
+      "zipcode": "",
+      "brand": "Ford"
+    },
+    {
+      "id": "110",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "RV",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 310.0,
+      "sleeps": 3,
+      "zipcode": "",
+      "brand": "Toyota"
+    },
+    {
+      "id": "111",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "RV",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 210.0,
+      "sleeps": 4,
+      "zipcode": "",
+      "brand": "Coach"
+    },
+    {
+      "id": "112",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "RV",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 90.0,
+      "sleeps": 1,
+      "zipcode": "",
+      "brand": "Coach"
+    },
+    {
+      "id": "113",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "RV",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 187.0,
+      "sleeps": 2,
+      "zipcode": "",
+      "brand": "Airstream"
+    },
+    {
+      "id": "114",
+      "name": "",
+      "image": "/imgs/sample.png",
+      "type": "Van",
+      "description": "'Malibu' VW Bay Window: Westfalia",
+      "price": 110.0,
+      "sleeps": 1,
+      "zipcode": "",
+      "brand": "Toyota "
+    }
+  ]
 }

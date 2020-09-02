@@ -1,23 +1,59 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import data from "./data.json";
 import Products from "./components/Products";
-// testing reopo
+import Filter from "./components/Filter";
+
 function App() {
   const [state, setState] = useState({
     products: data.products,
-    sleeps: 0,
+    sleeps: "",
     sort: "",
+    brand: "",
   });
+  const handleInput = (e) => {
+    console.log("IN: " + e.target.value);
+    if (e.target.value === "") {
+      setState({
+        brand: e.target.value.toLowerCase(),
+        products: data.products,
+      });
+    } else {
+      setState({
+        brand: e.target.value.toLowerCase(),
+        products: data.products.filter(
+          (product) =>
+            product.brand.toLowerCase() === e.target.value.toLowerCase()
+        ),
+        // products: data.products.filter((product) => {
+        //   return product.brand.indexOf(state.brand.toLowerCase()) !== -1;
+        // }),
+      });
+    }
+  };
+
+  const handleSelectSs = (e) => {
+    console.log("IN: " + e.target.value);
+    if (e.target.value === "") {
+      setState({ sleeps: e.target.value, products: data.products });
+    } else {
+      setState({
+        sleeps: e.target.value,
+        products: data.products.filter(
+          (product) => product.sleeps == e.target.value
+        ),
+      });
+    }
+  };
+
   return (
     <div className="grid-container">
       <header>
-        <div className="header-div">
-          Filter By Brand:
-          <input className="input" type="text" name="search" value="" />
-          <button type="GO" className="btn-go">
-            GO
-          </button>
-        </div>
+        <Filter
+          input={state.input}
+          handleInput={handleInput}
+          sleeps={state.sleeps}
+          handleSelectSs={handleSelectSs}
+        />
       </header>
       <main>
         <div className="content">
