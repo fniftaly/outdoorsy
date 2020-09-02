@@ -62,10 +62,16 @@ header {
   background-color: #203040;
   color: #ffffff;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem;
 
+}
+
+.filtrer-components {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 header .btn-go {
@@ -73,6 +79,18 @@ header .btn-go {
   width: 3rem;
   padding: .3rem;
   margin: .1rem .3rem;
+}
+
+.filtrer-components .filter-by-sleep {
+  width: 13rem;
+  display: flex;
+  justify-content: senter;
+  align-items: center;
+}
+
+.filtrer-components .filter-by-sleep .select-ss {
+  margin-left: 1.2rem;
+  height: 2.5rem;
 }
 
 header a {
