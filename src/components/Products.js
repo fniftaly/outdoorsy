@@ -15,7 +15,7 @@ const Products = ({ products }) => {
 
   return (
     <div>
-      <Fade bottom>
+      <Fade bottom cascade>
         <ul className="products">
           {products.map((product) => (
             <li key={product.id}>

@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState } from "react";
 import data from "./data.json";
 import Products from "./components/Products";
 import Filter from "./components/Filter";
@@ -47,6 +47,7 @@ function App() {
 
   return (
     <div className="grid-container">
+      {/* <Data /> */}
       <header>
         <Filter
           input={state.input}
